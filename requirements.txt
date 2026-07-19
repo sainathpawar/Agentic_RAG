@@ -1,0 +1,23 @@
+# ---- LLM framework ----
+langchain
+langchain-core
+langchain-community
+
+# ---- Groq (free, fast inference) ----
+langchain-groq
+
+# ---- Free LOCAL embeddings (no API key, runs on your machine) ----
+langchain-huggingface
+sentence-transformers
+
+# ---- Vector database (free, local) ----
+faiss-cpu
+
+# ---- Agentic RAG: state-machine / graph orchestration ----
+langgraph
+
+# ---- Free web-search "Internet" source for Agentic RAG ----
+duckduckgo-search
+
+# ---- Load GROQ_API_KEY from .env ----
+python-dotenv
